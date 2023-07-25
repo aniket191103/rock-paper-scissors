@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+        text-align: center;
+        /* border: 2px solid  black; */
+    }
+    .flexbox{
+        display: flex;
+        flex-wrap: nowrap;
+
+        justify-content: space-around;
+    }
+    .img{
+        width: 250px;
+        height: 150px;
+        border: 2px solid grey;
+        margin: 42px;
+    }
+    .img:hover{
+        box-shadow: 28px 23px 18px 2px rgba(76,84,156,1);
+    -moz-box-shadow: 28px 23px 18px 2px rgba(76,84,156,1);
+     box-shadow: 28px 23px 18px 2px rgba(76,84,156,1);
+    }
+    .para{
+        font-size: 123px;
+        text-align: center;
+    }
+div{
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#btn-1{
+    flex: 1;
+    background-color: green;
+    font-size: 23px;
+    color: white;
+    border-radius: 12px;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+    padding: 12px;
+    margin: 5px;
+}
+.reload{
+    display: flex;
+    right: 1px;
+
+}
+
+@media (max-width: 767px) {
+    /* Style for devices have width <= 767px;  */
+  }
+  @media (max-width: 1023px) and (min-width: 768px) {
+    /* // Style for devices have width >= 768px and <= 1023px; */
+  }
+  @media (min-width: 1024px) {
+    /* // Style for devices have width >= 1024px; */
+  }
